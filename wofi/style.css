@@ -1,0 +1,60 @@
+window,
+#window {
+    font-family: "CaskaydiaCove Nerd Font";
+    background-color: rgba(10, 19, 19, 0.85);
+    color: #c7e5dd;
+    border: 1px solid #112020;
+    border-radius: 17px;
+}
+
+#scroll {
+    border-top: 1px solid #112020;
+    background: transparent;
+}
+
+#inner-box {
+    padding-top: 15px;
+    background: transparent;
+}
+
+#entry {
+    padding: 7px;
+    margin: 10px 15px;
+    border-radius: 14px;
+    color: #c7e5dd;
+    background: transparent;
+}
+
+#entry:selected {
+    background-color: #1e2f2f;
+    color: #c7e5dd;
+    font-weight: bold;
+}
+
+#input,
+#prompt {
+    background-color: rgba(10, 19, 19, 0.85);
+    color: #c7e5dd;
+    border: 0;
+    border-bottom: 1px solid #112020;
+    border-radius: 10px 10px 0 0;
+    padding: 14px;
+    margin: 10px;
+}
+
+#input:focus,
+#prompt:focus {
+    border-bottom: 1px solid #5bd2c7;
+}
+
+#img {
+    padding: 5px;
+    margin-right: 7px;
+    background: transparent;
+}
+
+#lines {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}

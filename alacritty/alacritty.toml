@@ -1,0 +1,49 @@
+[window]
+opacity = 0.96
+title = "Alacritty"
+
+[window.padding]
+x = 2
+y = 2
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.primary]
+background = "#0a1313"
+foreground = "#c7e5dd"
+
+[colors.normal]
+black = "#0a1313"
+red = "#d46a6a"
+green = "#3ba69b"
+yellow = "#dcb97a"
+blue = "#5bd2c7"
+magenta = "#4ea7a0"
+cyan = "#5bd2c7"
+white = "#c7e5dd"
+
+[colors.bright]
+black = "#112020"
+red = "#ff4e4e"
+green = "#5bd2c7"
+yellow = "#ffdfb0"
+blue = "#7fe8df"
+magenta = "#78d9cf"
+cyan = "#7feee2"
+white = "#ffffff"
+
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[font]
+size = 12
+
+[font.normal]
+family = "CaskaydiaCove Nerd Font Mono"
+
+[scrolling]
+history = 3000
+
+

@@ -1,0 +1,63 @@
+@define-color bg #0a1313;
+@define-color fg #c7e5dd;
+@define-color muted #112020;
+@define-color error #ff4e4e;
+
+window#osd {
+    background-color: @bg;
+    color: @fg;
+
+    border: 2px solid @fg;
+    border-radius: 19px;
+    padding: 16px;
+    margin: 16px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+
+image {
+    color: @fg;
+    margin-right: 12px;
+}
+
+label {
+    color: @fg;
+    font-family: "CaskaydiaCove Nerd Font";
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+trough {
+    background-color: @muted;
+    border-radius: 10px;
+    min-height: 8px;
+    min-width: 240px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+progress {
+    background-color: @fg;
+    border-radius: 10px;
+    min-height: 8px;
+    min-width: 2px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+window#osd.muted {
+    border-color: @error;
+}
+
+window#osd.muted image {
+    color: @error;
+}
+
+window#osd.muted progress {
+    background-color: @error;
+}

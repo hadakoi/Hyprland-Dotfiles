@@ -1,0 +1,15 @@
+yay/
+vesktop/
+Antigravity/
+Code - OSS/
+dconf/
+gtk-3.0/
+gtk-4.0/
+pulse/
+session/
+systemd/
+powerlevel10k/
+
+user-dirs.dirs
+user-dirs.locale
+mimeapps.list	
