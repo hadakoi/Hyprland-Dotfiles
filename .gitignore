@@ -9,7 +9,18 @@ pulse/
 session/
 systemd/
 powerlevel10k/
+go/
+zed/
+google-chrome/
+ngrok/
+ghidra/
+
 
 user-dirs.dirs
 user-dirs.locale
 mimeapps.list	
+
+QtProject.conf
+Vector 35/
+dolphinrc
+trashrc
