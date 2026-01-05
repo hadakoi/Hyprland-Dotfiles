@@ -121,7 +121,7 @@
   },
   "custom/weather": {
     "tooltip": false,
-    "exec": "${HOME}/.config/waybar/scripts/get_weather.sh bangalore",
+    "exec": "${HOME}/.config/waybar/scripts/get_weather.sh Manipal",
     "return-type": "json",
     "format": "{}",
     "interval": 3600

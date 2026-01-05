@@ -14,7 +14,8 @@ zed/
 google-chrome/
 ngrok/
 ghidra/
-
+astro/
+htop
 
 user-dirs.dirs
 user-dirs.locale
